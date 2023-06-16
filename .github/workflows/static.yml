@@ -32,7 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install dependencies
-        uses: npm i
+        uses: npm install
       - name: Build SASS
         run: npm run build
       - name: Setup Pages
