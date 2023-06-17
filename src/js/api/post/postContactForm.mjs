@@ -1,5 +1,5 @@
 export async function postContactForm(data) {
-    const url = 'https://rugaard.oskarjenssen.com/wp-json/contact-form-7/v1/contact-forms/39/feedback';
+    const url = 'https://cm.michaelrugaard.dk/wp-json/contact-form-7/v1/contact-forms/31/feedback';
     const container = document.querySelector('#contact-form');
     
     container.innerHTML = `
