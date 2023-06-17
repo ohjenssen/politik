@@ -9,7 +9,7 @@ export function omComponentHero(post){
                 <div class="hero-text text-black"></div>
             </div>
             <div class="col-md-6 hero-img-container">
-                <img class="hero-img" src="../../assets/images/No_image_available.svg.png" alt="No image available">
+                <img class="hero-img" src="" alt="No image available">
             </div>
         </div>
     `;

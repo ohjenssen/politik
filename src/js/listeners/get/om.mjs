@@ -11,7 +11,7 @@ export async function listenForOm(){
 
     if(heroContainer){
         for (let i = 0; i < posts.length; i++){
-            if (posts[i].tags[0] === 6){
+            if (posts[i].tags[0] === 8){
                 heroContainer.appendChild(omComponentHero(posts[i]));
             } else {
                 console.log('Nothing found')
@@ -21,7 +21,7 @@ export async function listenForOm(){
 
     if(omContainer){
         for (let i = 0; i < posts.length; i++){
-            if (posts[i].tags[0] !== 6){
+            if (posts[i].tags[0] !== 8){
                 omContainer.appendChild(omComponentSection(posts[i]));
             } else {
                 console.log('Nothing found')
